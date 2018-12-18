@@ -1,0 +1,50 @@
+*
+{
+transition-property: all;
+
+}
+body
+{
+  margin:0px;
+    font-family: arial "cursive";
+    background-color:white;
+    transition-duration: 0.4s;
+    transform:scale(1.03);
+
+
+}
+
+ #brand
+  {
+    width:70px;
+    height:70px;
+
+  }
+
+  #bc
+  {
+    width:17%;
+  }
+
+.but
+  {
+    transition-duration:0.4s;
+    transform:scale(1.03) !important;
+  }
+
+  #panel
+  {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    transition-duration: 0.4s;
+    background-color:white !important;
+    color:black !important;
+    /*padding:5px;*/
+
+  }
+
+  #panel:hover
+  {
+     box-shadow: 5px 5px 5px rgba(0,0,0,0.55);    
+     transform:scale(1.03);
+  }
+
