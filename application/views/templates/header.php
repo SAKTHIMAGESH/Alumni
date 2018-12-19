@@ -14,9 +14,11 @@
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  
     <div class="container">
 
-  <a class="navbar-brand" href="home">Anjac Alumni</a>
+
+  <a class="navbar-brand" href="home"  ">&nbsp;Anjac Alumni</a>
   
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +53,7 @@ Login
 </a>
       </li>
       <li class="nav-item">
-      <a  href="" class="nav-link" data-toggle="modal" data-target="#register">Register</a>
+      <a  href="register" class="nav-link">Register</a>
       </li>
     </ul>
   </div>
@@ -105,27 +107,8 @@ Login
           <button type="button" class="close" data-dismiss="modal">&times;</button>
          
         </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span>First Name</label>
-              <input type="text" class="form-control" id="usrname" placeholder="">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span>Latname</label>
-              <input type="password" class="form-control" id="psw" placeholder="">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-          <p>Not a member? <a href="#">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
-        </div>
+       
+       
       </div>
     </div>
   </div> 

@@ -12,6 +12,18 @@ body
     transform:scale(1.03);
 
 
+
+}
+
+.btn1
+{
+  margin:5px; 
+}
+
+a 
+{
+
+  text-decoration: none !important;
 }
 
  #brand
@@ -48,3 +60,23 @@ body
      transform:scale(1.03);
   }
 
+.foo
+{
+  background-color:#212529;
+  color:white;
+}
+
+
+.under
+{
+   background-color:#282D31;
+}
+
+
+
+
+
+#register
+{
+  
+}
