@@ -1,24 +1,17 @@
-*
-{
-transition-property: all;
 
-}
 body
 {
   margin:0px;
     font-family: arial "cursive";
     background-color:white;
-    transition-duration: 0.4s;
-    transform:scale(1.03);
+   }
 
-
-
-}
-
-.btn1
+*
 {
-  margin:5px; 
+  transition-property: all !important;
 }
+
+
 
 a 
 {
@@ -38,10 +31,15 @@ a
     width:17%;
   }
 
-.but
+.btn1
   {
     transition-duration:0.4s;
-    transform:scale(1.03) !important;
+    
+  }
+
+  .btn1 : hover
+  {
+    transform:scale(1.25) !important;
   }
 
   #panel
@@ -50,15 +48,8 @@ a
     transition-duration: 0.4s;
     background-color:white !important;
     color:black !important;
-    /*padding:5px;*/
+    padding:5px;}
 
-  }
-
-  #panel:hover
-  {
-     box-shadow: 5px 5px 5px rgba(0,0,0,0.55);    
-     transform:scale(1.03);
-  }
 
 .foo
 {

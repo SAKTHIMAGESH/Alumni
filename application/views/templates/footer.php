@@ -2,47 +2,6 @@
 <footer class="page-footer font-small unique-color-dark foo">
 
    
-      <div class="container" >
-
-        <!-- Grid row-->
-        <div class="row py-4 d-flex align-items-center">
-
-          <!-- Grid column -->
-       
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-            <!-- Facebook -->
-            <a class="fb-ic">
-              <i class="fa fa-facebook white-text mr-4"> </i>
-            </a>
-            <!-- Twitter -->
-            <a class="tw-ic">
-              <i class="fa fa-twitter white-text mr-4"> </i>
-            </a>
-            <!-- Google +-->
-            <a class="gplus-ic">
-              <i class="fa fa-google-plus white-text mr-4"> </i>
-            </a>
-            <!--Linkedin -->
-            <a class="li-ic">
-              <i class="fa fa-linkedin white-text mr-4"> </i>
-            </a>
-            <!--Instagram-->
-            <a class="ins-ic">
-              <i class="fa fa-instagram white-text"> </i>
-            </a>
-
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row-->
-
-      </div>
-    </div>
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left mt-5">
@@ -51,21 +10,32 @@
       <div class="row mt-3">
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-3" >
 
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">About Us</h6>
+          <br>
+          <h6 class="text-uppercase font-weight-bold">Send Us Message</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.</p>
+        	<div class="container-fluid">
+        		<form class="form-group" action="" method="post">
+        			<label>Email</label><br>
+        			<input type="email" name="name" class="form-control" required>
+        			<label>Message</label>
+        			<textarea name="text" class="form-control"></textarea>
+        			<br>
+        			<input type="submit" class="btn btn-info" name="" value="Send">
+        		</form>
+
+        	</div>
 
         </div>
+
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" >
 
-          <!-- Links -->
+      <br>
           <h6 class="text-uppercase font-weight-bold">Find Us</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
@@ -97,24 +67,25 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <br>
-        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+   
+        <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="padding:5px;">
 
-          <!-- Links -->
+          <!-- Links --> 
+           <br>
           <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
           
-       <i class="fa fa-home mr-3">Ayya Nadar Janaki Ammal College</i>
-<i class="fa fa-home mr-3">Srivilliputhur Main Road,</i>
-<i class="fa fa-home mr-3">Sivakasi - 626124, Tamilnadu,</i></p>
+       <i class="fa fa-map mr-3">&nbsp;Ayya Nadar Janaki Ammal College</i>
+<i class="fa fa- mr-3">Srivilliputhur Main Road,</i>
+<i class="mr-3">Sivakasi - 626124, Tamilnadu,</i></p>
 <p>
- <i class="fa fa-home mr-3">Email: support_anjac@anjaconline.org, principal@anjaconline.org</i></p>
+ <i class="fa fa-mail mr-3">Email: support_anjac@anjaconline.org, principal@anjaconline.org</i></p>
  <p>
- <i class="fa fa-home mr-3"> Mobile : 04562-254100</i>
+ <i class="fa fa-phone mr-3"> Mobile : 04562-254100</i>
 </p>
 <p>
-  <i class="fa fa-home mr-3">Fax : 04562-254970</i>
+  <i class="fa fa-fax mr-3">Fax : 04562-254970</i>
         </p>
         
 

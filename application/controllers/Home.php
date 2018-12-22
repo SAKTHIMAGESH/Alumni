@@ -13,7 +13,8 @@ class Home extends CI_Controller
 	public function register()
 	{
 		$this->load->view('templates/header');
-		$this->load->view('auth/register');
+		$this->load->view('auth/register_form');
+		$this->load->view('templates/footer');
 		
 	} 
 }

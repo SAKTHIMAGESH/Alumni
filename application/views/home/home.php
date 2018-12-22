@@ -1,8 +1,7 @@
 <!-- <div class="container" id="caro"> -->
    <br>
    <br>
-   <br>
-   <br>
+   
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
    <ol class="carousel-indicators">
@@ -61,8 +60,8 @@
                <h5><strong>Alumni Essential</strong></h5>
             </div>
             <div class="card-body" align="center">
-               <a href="" class="btn btn-outline-primary btn1">Your Needs</a>
-               <a href="" class="btn btn-outline-primary btn1">Grievence</a>
+               <a href="" class="btn btn-outline-info btn1">Your Needs</a>
+               <a href="" class="btn btn-outline-info btn1">Grievence</a>
             </div>
         </div>
       </div>
